@@ -10,3 +10,6 @@ class QueriesTest(unittest.TestCase):
 
     def test_str_concat(self):
         return True
+
+if __name__ == "__main__":
+    unittest.main()

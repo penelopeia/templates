@@ -13,9 +13,19 @@ Portability is made easier by providing future developers another piece of docum
 
 The unittest package is included in pythons standard library and a good solution when packages are not accessible for download. Additional package examples here are offered as options to meet developer preferences or project capability. The example folders will look like tutorials for the frameworks, but also functional examples. In this way the unittest can be adapted or used as guidance for new/future projects.
 
+Running unit tests manually while developing a project is great, but for poduction environments testing should move to be run using continuous integration frameworks. More on this to come.
+
 ## Frameworks included
 
 * [Unittest](https://docs.python.org/3/library/unittest.html)
+
+## Frameworks to be included
+
+* [pytest](https://docs.pytest.org/en/latest/)
+* [nose2](https://github.com/nose-devs/nose2), because [nose](https://nose.readthedocs.io/en/latest/) is not going to be maintained much longer.
+* [doctest](https://docs.python.org/3/library/doctest.html#module-doctest)
+
+There are however, many many more [options](https://wiki.python.org/moin/PythonTestingToolsTaxonomy)
 
 ## Authors
 
